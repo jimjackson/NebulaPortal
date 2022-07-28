@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2013-12-16 17:56:22</sys_created_on>
+        <sys_id>196b25bfeb2111003623666cd206fe90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.catalog_technical_catalog</sys_name>
+        <sys_package display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">41a83acd07e01010f54bf6fd7c1ed036</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_technical_catalog">598ae1bfeb2111003623666cd206feb2</sys_portal_page>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_196b25bfeb2111003623666cd206fe90</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd8f2d0000001</claim_timestamp>
+        <metadata_update_name>sc_catalog_view_mtom_196b25bfeb2111003623666cd206fe90</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:01</sys_created_on>
+        <sys_id>ae77871497c95550f1d17b771153af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd8d780000001</claim_timestamp>
+        <metadata_update_name>sc_catalog_view_mtom_196b25bfeb2111003623666cd206fe90</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.servicecatalog.plat</previous_claim_name>
+        <previous_claim_scope>com.glideapp.servicecatalog.plat</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:01</sys_created_on>
+        <sys_id>6277871497c95550f1d17b771153af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sys_claim>
+</record_update>

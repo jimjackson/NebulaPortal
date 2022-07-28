@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>CreateNow Playground</description>
+        <name>Fix Script - CreateNow_6</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[gs.print('CreateNow_6');
+
+//comment
+var taskWF = 'f3d8dfcf4fcb5640e86a0d301210c759';
+var reqId= "9c06c1430f523200398a409ce1050ee7";gs.print('CreateNow_6');
+//gs.print("Boom: " +err);
+
+var scrItem = new GlideRecord('sc_req_item');
+scrItem.addQuery('request',reqId);
+scrItem.addQuery('cat_item',taskWF);
+scrItem.query();
+
+while(scrItem.next())
+	{
+	try
+	{
+		gs.print("Request: "+scrItem.request.getDisplayValue()+" - "+scrItem.request);
+		var wf = new Workflow();
+		wf.runFlows(scrItem, 'update');
+		
+	}catch(errr)
+	{
+		gs.print("Boom: " +err);
+	}
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-12 17:56:06</sys_created_on>
+        <sys_id>f79b9c560f423200398a409ce1050ef1</sys_id>
+        <sys_mod_count>975</sys_mod_count>
+        <sys_name>Fix Script - CreateNow_6</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sys_script_fix_f79b9c560f423200398a409ce1050ef1</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>182460112700000001</claim_timestamp>
+        <metadata_update_name>sys_script_fix_f79b9c560f423200398a409ce1050ef1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:51</sys_created_on>
+        <sys_id>a6588b5497c95550f1d17b771153af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245d52ae80000001</claim_timestamp>
+        <metadata_update_name>sys_script_fix_f79b9c560f423200398a409ce1050ef1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Project Tracker</previous_claim_name>
+        <previous_claim_scope>15eaba9097895550f1d17b771153afaf</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:51</sys_created_on>
+        <sys_id>7a588b5497c95550f1d17b771153af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+    </sys_claim>
+</record_update>

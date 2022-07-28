@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Add or remove user(s) from group">be65a101db8c5014c798656b4b961931</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-04-06 17:08:04</sys_created_on>
+        <sys_id>f4b52541db8c5014c798656b4b96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>question_choice_f4b52541db8c5014c798656b4b96191d</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:00</sys_updated_on>
+        <text>Remove</text>
+        <value>Remove</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f4b52541db8c5014c798656b4b96191d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>f4b52541db8c5014c798656b4b96191d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-04-06 17:08:04</sys_created_on>
+        <sys_id>ffb5a541db8c5014c798656b4b9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2020-04-06 17:08:04</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>f4b52541db8c5014c798656b4b96191d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-04-06 17:08:04</sys_created_on>
+        <sys_id>b7b5a541db8c5014c798656b4b9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2020-04-06 17:08:04</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd8d2b0000001</claim_timestamp>
+        <metadata_update_name>question_choice_f4b52541db8c5014c798656b4b96191d</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:00</sys_created_on>
+        <sys_id>1e77871497c95550f1d17b771153af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:00</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_title_variable">
+    <sp_page_title_variable action="INSERT_OR_UPDATE">
+        <column_name>sys_id</column_name>
+        <id_parameter>sys_id</id_parameter>
+        <source_field>title</source_field>
+        <source_table>sc_category</source_table>
+        <sp_page display_value="nebula_sc_category">97d0c58207601010f54bf6fd7c1ed070</sp_page>
+        <sys_class_name>sp_page_title_variable</sys_class_name>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-04 19:23:12</sys_created_on>
+        <sys_id>7fe0568a07241010f54bf6fd7c1ed02e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>%title</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sp_page_title_variable_7fe0568a07241010f54bf6fd7c1ed02e</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:04</sys_updated_on>
+        <variable>%title</variable>
+    </sp_page_title_variable>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd99550000001</claim_timestamp>
+        <metadata_update_name>sp_page_title_variable_7fe0568a07241010f54bf6fd7c1ed02e</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:04</sys_created_on>
+        <sys_id>cb77c71497c95550f1d17b771153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:04</sys_updated_on>
+    </sys_claim>
+</record_update>

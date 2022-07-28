@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Anything Else Topic">3a797ce87344330025d032e954f6a79c</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"6a05a8d234a6435bb825afa0d90acbd8","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"6a05a8d234a6435bb825afa0d90acbd8"}],"goals":[{"name":"primary","trigger_id":"6a05a8d234a6435bb825afa0d90acbd8","nodes":[{"type":"StartGoal","goal_id":"b36696471dec40e4b7c7a49890be2349","greeting_msg":{"type":"String","mode":"string","value":""},"id":"0186f5f005d14ca096de2177d3a6af6f","name":"Start"},{"type":"TerminateGoal","goal_id":"b36696471dec40e4b7c7a49890be2349","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"e5b870fcf931492e8698d79f2cc4149d","name":"End"},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"No","expression":{"type":"Applicability","mode":"query","value":"anything_else!=true"},"id":"945b7f4df1e4441ca2dfa534a2a8fc20","name":"No"},{"type":"Branch","label":"Yes","expression":{"type":"Applicability","mode":"query","value":"anything_else=true"},"id":"2252e0d38807477cae452f6b68a6feb6","name":"Yes"}],"id":"610d893d9dab4d3da37ae86cc6244ea3","goal_id":"b36696471dec40e4b7c7a49890be2349"},{"type":"InputPrompt","variable_id":"627e6af507e647a4a96cddd59cc04ed6","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Is there anything else I can assist you with?\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","name":"","allow_text_input":true,"use_confirmation_prompt":true},"optional":false,"id":"7637f73b32b34db38423e5601e320d59","name":"Anything Else","goal_id":"b36696471dec40e4b7c7a49890be2349","applicability":{"type":"Applicability","mode":"script","value":"true"}},{"type":"ScriptedAction","script":"(function execute() {\n    vaSystem.switchTopic(vaVars._setup_explore_help_topic);\n})()\n","id":"2344a9f5ebc84c4a815842f493ea32c7","name":"show topics","goal_id":"b36696471dec40e4b7c7a49890be2349","applicability":{"type":"Applicability","mode":"script","value":"true"}},{"type":"ScriptedAction","script":"(function execute() {\n    vaVars._topic_current = null;\n})()\n","id":"3e18091414c94cad8d71c4722622dd33","name":"Reset Current Topic","goal_id":"b36696471dec40e4b7c7a49890be2349","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"610d893d9dab4d3da37ae86cc6244ea3","target_node_id":"e5b870fcf931492e8698d79f2cc4149d","branch_id":"945b7f4df1e4441ca2dfa534a2a8fc20","id":"a8a96373cafc463db031497cf7f782be","name":"945b7f4df1e4441ca2dfa534a2a8fc20"},{"type":"Edge","source_node_id":"7637f73b32b34db38423e5601e320d59","target_node_id":"610d893d9dab4d3da37ae86cc6244ea3","id":"ff414cb035b541b086dd3c5b9f0c17be"},{"type":"Edge","source_node_id":"610d893d9dab4d3da37ae86cc6244ea3","target_node_id":"2344a9f5ebc84c4a815842f493ea32c7","branch_id":"2252e0d38807477cae452f6b68a6feb6","id":"681bc62850974a7caea613c646c17237","name":"2252e0d38807477cae452f6b68a6feb6"},{"type":"Edge","source_node_id":"2344a9f5ebc84c4a815842f493ea32c7","target_node_id":"3e18091414c94cad8d71c4722622dd33","id":"7f9a5b7980c44cc18d252ecb85312ff6"},{"type":"Edge","source_node_id":"0186f5f005d14ca096de2177d3a6af6f","target_node_id":"3e18091414c94cad8d71c4722622dd33","id":"b6d2ecdf30cd42048b976f17954a162d"},{"type":"Edge","source_node_id":"3e18091414c94cad8d71c4722622dd33","target_node_id":"7637f73b32b34db38423e5601e320d59","id":"cda5e9b592f9495c87771631ec611b9c"}],"id":"b36696471dec40e4b7c7a49890be2349"}],"script_variables":[{"type":"String","name":"_setup_explore_help_topic","value":{"type":"String","mode":"string"},"id":"3ef15a3382e14989af43bf2e00f92193"},{"type":"String","name":"_topic_current","value":{"type":"String","mode":"string"},"id":"40c05048a4f440758ecabf6ff6774af2"}],"glide_variables":[{"type":"True/False","id":"627e6af507e647a4a96cddd59cc04ed6","name":"anything_else"},{"type":"Reference","table":"sys_user","id":"current-user","name":"user"}],"applicability":{"type":"Applicability","mode":"script","value":"(function execute() {\n    return false;\n})()\n"},"roles":["public"],"scope":"global","domain":"global","id":"f8393ce87344330025d032e954f6a739","name":"Anything Else Topic","key_phrases":["Anything Else Topic"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"5628e7f27373230025d032e954f6a7de","library":false}</design_definition>
+        <design_topic_id>f8393ce87344330025d032e954f6a739</design_topic_id>
+        <name>Anything Else Topic</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-04 08:15:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3e79bce87344330025d032e954f6a70f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NLU Model for Virtual Agent Setup Topics" source="com.glide.cs.nlu.topics">a9b767c107a81010f54bf6fd7c1ed0c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sys_cb_design_topic_3e79bce87344330025d032e954f6a70f</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>1824601135c0000002</claim_timestamp>
+        <metadata_update_name>sys_cb_design_topic_3e79bce87344330025d032e954f6a70f</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:51</sys_created_on>
+        <sys_id>3e588b5497c95550f1d17b771153af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>1824601135c0000001</claim_timestamp>
+        <metadata_update_name>sys_cb_design_topic_3e79bce87344330025d032e954f6a70f</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.cs.nlu.topics</previous_claim_name>
+        <previous_claim_scope>com.glide.cs.nlu.topics</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:51</sys_created_on>
+        <sys_id>fe588b5497c95550f1d17b771153af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>#FFFFFF</background_color>
+        <description>Products and services for the IT department</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image>71e60b4e07a41010f54bf6fd7c1ed047</desktop_image>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2013-12-06 11:00:23</sys_created_on>
+        <sys_id>742ce428d7211100f2d224837e61036d</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Technical Catalog</sys_name>
+        <sys_package display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">b429768107241010f54bf6fd7c1ed07c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sc_catalog_742ce428d7211100f2d224837e61036d</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+        <title>Technical Catalog</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=742ce428d7211100f2d224837e61036d"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#8c6397</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>desktop_image</file_name>
+        <hash>e84f36debed7aed8ea3c984235e8b670bc8fab0ca8dd9a8ab04c08fc821c1518</hash>
+        <image_height>40</image_height>
+        <image_width>100</image_width>
+        <size_bytes>6550</size_bytes>
+        <size_compressed>3780</size_compressed>
+        <state>available</state>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-04 23:17:52</sys_created_on>
+        <sys_id>71e60b4e07a41010f54bf6fd7c1ed047</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2020-05-04 23:17:52</sys_updated_on>
+        <table_name>ZZ_YYsc_catalog</table_name>
+        <table_sys_id>742ce428d7211100f2d224837e61036d</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="desktop_image" sys_id="71e60b4e07a41010f54bf6fd7c1ed047">71e60b4e07a41010f54bf6fd7c1ed047</sys_attachment>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-04 23:17:52</sys_created_on>
+        <sys_id>b1e60b4e07a41010f54bf6fd7c1ed047</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5028</length>
+        <position>1</position>
+        <sys_attachment display_value="desktop_image" sys_id="71e60b4e07a41010f54bf6fd7c1ed047">71e60b4e07a41010f54bf6fd7c1ed047</sys_attachment>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-04 23:17:52</sys_created_on>
+        <sys_id>35e60b4e07a41010f54bf6fd7c1ed047</sys_id>
+    </sys_attachment_doc>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd8de50000002</claim_timestamp>
+        <metadata_update_name>sc_catalog_742ce428d7211100f2d224837e61036d</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:01</sys_created_on>
+        <sys_id>1677871497c95550f1d17b771153af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd8de50000001</claim_timestamp>
+        <metadata_update_name>sc_catalog_742ce428d7211100f2d224837e61036d</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.servicecatalog</previous_claim_name>
+        <previous_claim_scope>com.glideapp.servicecatalog</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:01</sys_created_on>
+        <sys_id>d677871497c95550f1d17b771153af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sys_claim>
+</record_update>

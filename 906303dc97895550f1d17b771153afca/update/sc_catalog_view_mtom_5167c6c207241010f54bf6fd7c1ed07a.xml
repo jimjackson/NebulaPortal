@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>false</default>
+        <sc_catalog display_value="Resources">8752afd953133300a8ed21fac2dc34ac</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-04 18:40:24</sys_created_on>
+        <sys_id>5167c6c207241010f54bf6fd7c1ed07a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resources.Catalog</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="Catalog">453809e40a04bfde001fb14e5729693d</sys_portal_page>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_5167c6c207241010f54bf6fd7c1ed07a</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd8fa70000001</claim_timestamp>
+        <metadata_update_name>sc_catalog_view_mtom_5167c6c207241010f54bf6fd7c1ed07a</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:01</sys_created_on>
+        <sys_id>aa77871497c95550f1d17b771153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability>(function execute() {
+    return false;
+})()
+</applicability>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Asks users if they want to continue with another request or task.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "b36696471dec40e4b7c7a49890be2349": {
+      "id": "b36696471dec40e4b7c7a49890be2349",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "0186f5f005d14ca096de2177d3a6af6f": {
+          "id": "0186f5f005d14ca096de2177d3a6af6f",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e5b870fcf931492e8698d79f2cc4149d": {
+          "id": "e5b870fcf931492e8698d79f2cc4149d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "610d893d9dab4d3da37ae86cc6244ea3": {
+          "id": "610d893d9dab4d3da37ae86cc6244ea3",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "7637f73b32b34db38423e5601e320d59": {
+          "id": "7637f73b32b34db38423e5601e320d59",
+          "stepType": "Prompt",
+          "name": "Anything Else",
+          "prompt": {
+            "value": "Is there anything else I can assist you with?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "627e6af507e647a4a96cddd59cc04ed6",
+          "withNluUserInput": true,
+          "skipIfFulfilled": false,
+          "entity": {
+            "id": ""
+          }
+        },
+        "2344a9f5ebc84c4a815842f493ea32c7": {
+          "id": "2344a9f5ebc84c4a815842f493ea32c7",
+          "name": "show topics",
+          "script": "(function execute() {\n    vaSystem.switchTopic(vaVars._setup_explore_help_topic);\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "3e18091414c94cad8d71c4722622dd33": {
+          "id": "3e18091414c94cad8d71c4722622dd33",
+          "name": "Reset Current Topic",
+          "script": "(function execute() {\n    vaVars._topic_current = null;\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "a8a96373cafc463db031497cf7f782be",
+          "edgeType": "Branch",
+          "source": "610d893d9dab4d3da37ae86cc6244ea3",
+          "target": "e5b870fcf931492e8698d79f2cc4149d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "anything_else!=true",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "ff414cb035b541b086dd3c5b9f0c17be",
+          "edgeType": "Edge",
+          "source": "7637f73b32b34db38423e5601e320d59",
+          "target": "610d893d9dab4d3da37ae86cc6244ea3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "681bc62850974a7caea613c646c17237",
+          "edgeType": "Branch",
+          "source": "610d893d9dab4d3da37ae86cc6244ea3",
+          "target": "2344a9f5ebc84c4a815842f493ea32c7",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "anything_else=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "7f9a5b7980c44cc18d252ecb85312ff6",
+          "edgeType": "Edge",
+          "source": "2344a9f5ebc84c4a815842f493ea32c7",
+          "target": "3e18091414c94cad8d71c4722622dd33",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b6d2ecdf30cd42048b976f17954a162d",
+          "edgeType": "Edge",
+          "source": "0186f5f005d14ca096de2177d3a6af6f",
+          "target": "3e18091414c94cad8d71c4722622dd33",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cda5e9b592f9495c87771631ec611b9c",
+          "edgeType": "Edge",
+          "source": "3e18091414c94cad8d71c4722622dd33",
+          "target": "7637f73b32b34db38423e5601e320d59",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "627e6af507e647a4a96cddd59cc04ed6": {
+      "id": "627e6af507e647a4a96cddd59cc04ed6",
+      "name": "anything_else",
+      "label": "Anything Else",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "3ef15a3382e14989af43bf2e00f92193": {
+      "id": "3ef15a3382e14989af43bf2e00f92193",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_setup_explore_help_topic",
+      "label": "_setup_explore_help_topic",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "40c05048a4f440758ecabf6ff6774af2": {
+      "id": "40c05048a4f440758ecabf6ff6774af2",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_current",
+      "label": "_topic_current",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Anything Else Topic</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Anything Else Topic</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-04 08:14:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f8393ce87344330025d032e954f6a739</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Anything Else Topic</sys_name>
+        <sys_package display_value="NLU Model for Virtual Agent Setup Topics" source="com.glide.cs.nlu.topics">a9b767c107a81010f54bf6fd7c1ed0c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sys_cb_topic_f8393ce87344330025d032e954f6a739</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:52</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=f8393ce87344330025d032e954f6a739"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>182460114070000001</claim_timestamp>
+        <metadata_update_name>sys_cb_topic_f8393ce87344330025d032e954f6a739</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:52</sys_created_on>
+        <sys_id>36588b5497c95550f1d17b771153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:52</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>182460114060000001</claim_timestamp>
+        <metadata_update_name>sys_cb_topic_f8393ce87344330025d032e954f6a739</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.cs.nlu.topics</previous_claim_name>
+        <previous_claim_scope>com.glide.cs.nlu.topics</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:52</sys_created_on>
+        <sys_id>f6588b5497c95550f1d17b771153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:52</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>(function execute() {
+    return false;
+})()
+</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Anything Else Topic">f8393ce87344330025d032e954f6a739</cb_topic_id>
+        <channels/>
+        <definition>{"id":"f8393ce87344330025d032e954f6a739","name":"Anything Else Topic","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Anything Else Topic","applicability":"(function execute() {\n    return false;\n})()\n","category":"","key_phrases":["Anything Else Topic"],"variables":[{"name":"_setup_explore_help_topic","type":"java.lang.Object"},{"name":"_topic_current","type":"java.lang.Object"},{"name":"__segment_trigger_6a05a8d234a6435bb825afa0d90acbd8_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Boolean","name":"anything_else","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_cfbc16975028d010eb13a61b19934fa1","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_610d893d9dab4d3da37ae86cc6244ea3","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_945b7f4df1e4441ca2dfa534a2a8fc20","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_4fbc16974128d01054880b22badb39a1","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_ScriptedAction_3e18091414c94cad8d71c4722622dd33","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_0186f5f005d14ca096de2177d3a6af6f","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_2252e0d38807477cae452f6b68a6feb6","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_e5b870fcf931492e8698d79f2cc4149d","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_ScriptedAction_2344a9f5ebc84c4a815842f493ea32c7","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_6a05a8d234a6435bb825afa0d90acbd8_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_cfbc16975028d010eb13a61b19934fa1\");vaInputs.initialize(\"__silent_TerminateGoal_e5b870fcf931492e8698d79f2cc4149d\");vaInputs.initialize(\"__silent_Branch_2252e0d38807477cae452f6b68a6feb6\");vaInputs.initialize(\"__silent_Branch_945b7f4df1e4441ca2dfa534a2a8fc20\");vaInputs.initialize(\"__silent_ScriptedAction_3e18091414c94cad8d71c4722622dd33\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1\");vaInputs.initialize(\"anything_else\");vaInputs.initialize(\"__silent_Decision_RootDecision_4fbc16974128d01054880b22badb39a1\");vaInputs.initialize(\"__silent_ScriptedAction_2344a9f5ebc84c4a815842f493ea32c7\");vaInputs.initialize(\"__silent_Decision_610d893d9dab4d3da37ae86cc6244ea3\");vaInputs.initialize(\"__silent_StartGoal_0186f5f005d14ca096de2177d3a6af6f\");null;","fields":[{"name":"__silent_Decision_RootDecision_4fbc16974128d01054880b22badb39a1","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_4fbc16974128d01054880b22badb39a1\";vaInputs.__silent_Decision_RootDecision_4fbc16974128d01054880b22badb39a1=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_4fbc16974128d01054880b22badb39a1\";vaInputs.RootDecisionBranch_cfbc16975028d010eb13a61b19934fa1=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_4fbc16974128d01054880b22badb39a1\" &amp;&amp; ((vaInputs.RootDecisionBranch_cfbc16975028d010eb13a61b19934fa1.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1___RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1\";vaInputs.__silent_Branch_RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1___RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1\";null;"},{"name":"__silent_StartGoal_0186f5f005d14ca096de2177d3a6af6f","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1___RootDecisionBranch_8fbc1697cf28d01098b8cad5e2585ba1\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___0186f5f005d14ca096de2177d3a6af6f\";vaInputs.__silent_StartGoal_0186f5f005d14ca096de2177d3a6af6f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___0186f5f005d14ca096de2177d3a6af6f\";null;"},{"name":"anything_else","applicable":"vaVars.previous_graph_node==\"Reset Current Topic___3e18091414c94cad8d71c4722622dd33\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Anything Else___7637f73b32b34db38423e5601e320d59\";gs.getMessageLang(\"Is there anything else I can assist you with?\", vaContext.getRequesterLang())","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_entity":"","nlu_text_input":true,"nlu_confirmation_prompt":true,"acknowledge_msg":"vaVars.previous_graph_node=\"Anything Else___7637f73b32b34db38423e5601e320d59\";null;"},{"name":"__silent_Decision_610d893d9dab4d3da37ae86cc6244ea3","applicable":"vaVars.previous_graph_node==\"Anything Else___7637f73b32b34db38423e5601e320d59\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Decision___610d893d9dab4d3da37ae86cc6244ea3\";vaInputs.__silent_Decision_610d893d9dab4d3da37ae86cc6244ea3=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Decision___610d893d9dab4d3da37ae86cc6244ea3\";null;"},{"name":"__silent_Branch_945b7f4df1e4441ca2dfa534a2a8fc20","applicable":"vaVars.previous_graph_node==\"Decision___610d893d9dab4d3da37ae86cc6244ea3\" &amp;&amp; ((vaInputs.anything_else.getValue() != true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"No___945b7f4df1e4441ca2dfa534a2a8fc20\";vaInputs.__silent_Branch_945b7f4df1e4441ca2dfa534a2a8fc20=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"No___945b7f4df1e4441ca2dfa534a2a8fc20\";null;"},{"name":"__silent_Branch_2252e0d38807477cae452f6b68a6feb6","applicable":"vaVars.previous_graph_node==\"Decision___610d893d9dab4d3da37ae86cc6244ea3\" &amp;&amp; ((vaInputs.anything_else.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Yes___2252e0d38807477cae452f6b68a6feb6\";vaInputs.__silent_Branch_2252e0d38807477cae452f6b68a6feb6=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Yes___2252e0d38807477cae452f6b68a6feb6\";null;"},{"name":"__silent_ScriptedAction_3e18091414c94cad8d71c4722622dd33","applicable":"(vaVars.previous_graph_node==\"show topics___2344a9f5ebc84c4a815842f493ea32c7\" || vaVars.previous_graph_node==\"Start___0186f5f005d14ca096de2177d3a6af6f\")","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Reset Current Topic___3e18091414c94cad8d71c4722622dd33\";(function execute() {(function execute() {\n    vaVars._topic_current = null;\n})()\n;vaInputs.__silent_TerminateGoal_e5b870fcf931492e8698d79f2cc4149d.reset();vaInputs.__silent_Branch_2252e0d38807477cae452f6b68a6feb6.reset();vaInputs.anything_else.reset();vaInputs.__silent_Branch_945b7f4df1e4441ca2dfa534a2a8fc20.reset();vaInputs.__silent_ScriptedAction_2344a9f5ebc84c4a815842f493ea32c7.reset();vaInputs.__silent_Decision_610d893d9dab4d3da37ae86cc6244ea3.reset();})();vaInputs.__silent_ScriptedAction_3e18091414c94cad8d71c4722622dd33=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Reset Current Topic___3e18091414c94cad8d71c4722622dd33\";null;"},{"name":"__silent_ScriptedAction_2344a9f5ebc84c4a815842f493ea32c7","applicable":"vaVars.previous_graph_node==\"Yes___2252e0d38807477cae452f6b68a6feb6\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"show topics___2344a9f5ebc84c4a815842f493ea32c7\";(function execute() {(function execute() {\n    vaSystem.switchTopic(vaVars._setup_explore_help_topic);\n})()\n;})();vaInputs.__silent_ScriptedAction_2344a9f5ebc84c4a815842f493ea32c7=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"show topics___2344a9f5ebc84c4a815842f493ea32c7\";vaInputs.__silent_ScriptedAction_3e18091414c94cad8d71c4722622dd33.reset();null;"},{"name":"__silent_TerminateGoal_e5b870fcf931492e8698d79f2cc4149d","applicable":"vaVars.previous_graph_node==\"No___945b7f4df1e4441ca2dfa534a2a8fc20\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___e5b870fcf931492e8698d79f2cc4149d\";vaInputs.__silent_TerminateGoal_e5b870fcf931492e8698d79f2cc4149d=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___e5b870fcf931492e8698d79f2cc4149d\";vaVars.__segment_trigger_6a05a8d234a6435bb825afa0d90acbd8_done=true;null;"}],"variables_update":[]}],"roles":["public"],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"","nlu_provider":"","nlu_model":"","nlu_intent":"","score":0,"visible":false,"sys_scope":"global","sys_domain":"global","title":"Anything Else Topic","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Anything Else Topic</key_phrases>
+        <last_published_on>2020-05-08 17:26:03</last_published_on>
+        <library>false</library>
+        <library_usage/>
+        <metaphone>AN0 AL TPK</metaphone>
+        <name>Anything Else Topic</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles>public</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-04 08:15:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3a797ce87344330025d032e954f6a79c</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Anything Else Topic</sys_name>
+        <sys_package display_value="NLU Model for Virtual Agent Setup Topics" source="com.glide.cs.nlu.topics">a9b767c107a81010f54bf6fd7c1ed0c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sys_cs_topic_3a797ce87344330025d032e954f6a79c</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+        <title>Anything Else Topic</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>false</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=3a797ce87344330025d032e954f6a79c"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>182460111840000001</claim_timestamp>
+        <metadata_update_name>sys_cs_topic_3a797ce87344330025d032e954f6a79c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:51</sys_created_on>
+        <sys_id>2a584b5497c95550f1d17b771153afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>182460111820000001</claim_timestamp>
+        <metadata_update_name>sys_cs_topic_3a797ce87344330025d032e954f6a79c</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.cs.nlu.topics</previous_claim_name>
+        <previous_claim_scope>com.glide.cs.nlu.topics</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:51</sys_created_on>
+        <sys_id>ea584b5497c95550f1d17b771153afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.sp-tagline-color {
+	color: $sp-tagline-color;
+}
+
+.search-bar {
+   width: 600px;
+   margin: 0 auto;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,short_description</field_list>
+        <has_preview>false</has_preview>
+        <id>nebula_catalog_search</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Nebula Catalog Homepage Search</name>
+        <option_schema>[{"name":"typeahead_search","default_value":"{title: 'Search Catalog?', size: 'lg', color: 'default'}","section":"Presentation","label":"Typeahead Search","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[data.typeAheadSearch = $sp.getWidget('typeahead-search', options.typeahead_search);]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-01-03 19:52:24</sys_created_on>
+        <sys_id>6ee5c63edb060010c798656b4b96191b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Nebula Catalog Homepage Search</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sp_widget_6ee5c63edb060010c798656b4b96191b</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:05</sys_updated_on>
+        <template><![CDATA[<div id="homepage-search" class="hidden-xs wrapper-md">
+  <div class="wrapper-md">
+  	<h2 class="text-center text-4x m-b-lg sp-tagline-color" ng-bind="options.title"></h2>
+  	<h4 ng-if="options.short_description" class="text-center m-b-lg sp-tagline-color" ng-bind="options.short_description"></h4>
+    <div class="search-bar">
+      <sp-widget widget="data.typeAheadSearch"></sp-widget>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd9d340000001</claim_timestamp>
+        <metadata_update_name>sp_widget_6ee5c63edb060010c798656b4b96191b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:05</sys_created_on>
+        <sys_id>5377c71497c95550f1d17b771153afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:05</sys_updated_on>
+    </sys_claim>
+</record_update>

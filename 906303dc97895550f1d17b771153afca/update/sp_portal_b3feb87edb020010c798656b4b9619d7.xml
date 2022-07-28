@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary:#428bca;
+$body-bg:#f0f3f4;
+$state-success-text:#5cb85c;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#000000;
+$text-color:#717171;
+$sp-logo-margin-y:2px;
+$navbar-inverse-link-hover-color:#ffffff;
+$panel-bg:#fff;
+$brand-success:#5cb85c;
+$navbar-inverse-bg:#000000;
+$brand-warning:#f0ad4e;
+$brand-danger:#d9534f;
+$sp-tagline-color:#343d47;
+$navbar-inverse-link-color:#21aee7;
+$brand-info:#5bc0de;
+$link-color:#428bca;
+$sp-logo-margin-x:8px;
+$btn-default-bg:#fff;
+$text-muted:#979797;
+$grid-gutter-width: 15px !default;</css_variables>
+        <default>true</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="nebula_index">e3ac99b6db820010c798656b4b9619de</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <login_page display_value="nebula_landing">d528ec0307689010f54bf6fd7c1ed013</login_page>
+        <logo>cfd583ca07a41010f54bf6fd7c1ed0fe</logo>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config>[{&#13;
+	"tagline": {&#13;
+		"table" : "sp_instance",&#13;
+		"sys_id" : "34fe3d96cb20020000f8d856634c9cf4",&#13;
+		"field" : "title"&#13;
+	},&#13;
+	"hero_background": {&#13;
+		"table" : "sp_container",&#13;
+		"sys_id" : "be98a8d2cb20020000f8d856634c9c63",&#13;
+		"field" : "background_image"&#13;
+	},&#13;
+	"readonly_variable_editor": "false"&#13;
+}]</quick_start_config>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
+        <sqanda_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</sqanda_knowledge_base>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-01-03 14:43:20</sys_created_on>
+        <sys_id>b3feb87edb020010c798656b4b9619d7</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name>Nebula Portal</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sp_portal_b3feb87edb020010c798656b4b9619d7</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:04</sys_updated_on>
+        <theme display_value="Nebula Theme">3bb9357edbc20010c798656b4b96196b</theme>
+        <title>Nebula Portal</title>
+        <ts_index_group display_value="portal_index_group">2c3e7d1513c93300e618bfd63244b0d7</ts_index_group>
+        <url_suffix>ess</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3feb87edb020010c798656b4b9619d7"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#908662</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>logo</file_name>
+        <hash>d25233c308a5239511df2cec2b4eab0a4d92691a45d90cf90fcca107d705cf39</hash>
+        <image_height>40</image_height>
+        <image_width>40</image_width>
+        <size_bytes>5343</size_bytes>
+        <size_compressed>2381</size_compressed>
+        <state>available</state>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-04 23:13:18</sys_created_on>
+        <sys_id>cfd583ca07a41010f54bf6fd7c1ed0fe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2020-05-04 23:13:18</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>b3feb87edb020010c798656b4b9619d7</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="cfd583ca07a41010f54bf6fd7c1ed0fe">cfd583ca07a41010f54bf6fd7c1ed0fe</sys_attachment>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-04 23:13:18</sys_created_on>
+        <sys_id>03d583ca07a41010f54bf6fd7c1ed0ff</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3164</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="cfd583ca07a41010f54bf6fd7c1ed0fe">cfd583ca07a41010f54bf6fd7c1ed0fe</sys_attachment>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-04 23:13:18</sys_created_on>
+        <sys_id>83d583ca07a41010f54bf6fd7c1ed0ff</sys_id>
+    </sys_attachment_doc>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd99ad0000001</claim_timestamp>
+        <metadata_update_name>sp_portal_b3feb87edb020010c798656b4b9619d7</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:04</sys_created_on>
+        <sys_id>4f77c71497c95550f1d17b771153af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:04</sys_updated_on>
+    </sys_claim>
+</record_update>

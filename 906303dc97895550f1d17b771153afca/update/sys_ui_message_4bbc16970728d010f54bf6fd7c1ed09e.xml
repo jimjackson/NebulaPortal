@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>Anything Else Topic</key>
+        <language>en</language>
+        <message>Anything Else Topic</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2020-05-08 17:26:02</sys_created_on>
+        <sys_id>4bbc16970728d010f54bf6fd7c1ed09e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Anything Else Topic</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sys_ui_message_4bbc16970728d010f54bf6fd7c1ed09e</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+    </sys_ui_message>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>182460111210000001</claim_timestamp>
+        <metadata_update_name>sys_ui_message_4bbc16970728d010f54bf6fd7c1ed09e</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:10:51</sys_created_on>
+        <sys_id>6e588f1497c95550f1d17b771153af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:10:51</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>#FFFFFF</background_color>
+        <description>Catalog for Instance Security Center</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-15 17:54:15</sys_created_on>
+        <sys_id>8752afd953133300a8ed21fac2dc34ac</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Resources</sys_name>
+        <sys_package display_value="Instance Security Center" source="com.glide.instance_sec_center">7dac76c507641010f54bf6fd7c1ed069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</sys_scope>
+        <sys_update_name>sc_catalog_8752afd953133300a8ed21fac2dc34ac</sys_update_name>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+        <title>Resources</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=8752afd953133300a8ed21fac2dc34ac"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd8edc0000001</claim_timestamp>
+        <metadata_update_name>sc_catalog_8752afd953133300a8ed21fac2dc34ac</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Nebula Portal</previous_claim_name>
+        <previous_claim_scope>906303dc97895550f1d17b771153afca</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:01</sys_created_on>
+        <sys_id>6677871497c95550f1d17b771153af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Nebula Portal">906303dc97895550f1d17b771153afca</claim_owner_scope>
+        <claim_timestamp>18245fd8edb0000001</claim_timestamp>
+        <metadata_update_name>sc_catalog_8752afd953133300a8ed21fac2dc34ac</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.instance_sec_center</previous_claim_name>
+        <previous_claim_scope>com.glide.instance_sec_center</previous_claim_scope>
+        <sys_created_by>jim.jackson</sys_created_by>
+        <sys_created_on>2022-07-28 18:07:01</sys_created_on>
+        <sys_id>2a77871497c95550f1d17b771153af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.jackson</sys_updated_by>
+        <sys_updated_on>2022-07-28 18:07:01</sys_updated_on>
+    </sys_claim>
+</record_update>
